@@ -1,0 +1,12 @@
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\bin\Debug\net6.0\CoreAPIMYSQLModel.deps.json
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\bin\Debug\net6.0\CoreAPIMYSQLModel.dll
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\bin\Debug\net6.0\CoreAPIMYSQLModel.pdb
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\obj\Debug\net6.0\CoreAPIMYSQLModel.csproj.AssemblyReference.cache
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\obj\Debug\net6.0\CoreAPIMYSQLModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\obj\Debug\net6.0\CoreAPIMYSQLModel.AssemblyInfoInputs.cache
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\obj\Debug\net6.0\CoreAPIMYSQLModel.AssemblyInfo.cs
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\obj\Debug\net6.0\CoreAPIMYSQLModel.csproj.CoreCompileInputs.cache
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\obj\Debug\net6.0\CoreAPIMYSQLModel.dll
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\obj\Debug\net6.0\refint\CoreAPIMYSQLModel.dll
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\obj\Debug\net6.0\CoreAPIMYSQLModel.pdb
+C:\Users\Juan Diego\Documents\wiga\Punto3API\CoreAPIMYSQLModel\obj\Debug\net6.0\ref\CoreAPIMYSQLModel.dll
