@@ -1,0 +1,7 @@
+{
+  "name": "Punto3Ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
