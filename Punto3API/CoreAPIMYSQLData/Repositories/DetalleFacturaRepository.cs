@@ -26,13 +26,7 @@ namespace CoreAPIMYSQLData.Repositories
         {
             var db = dbConnection();
             var sql = @"
-                SELECT df.num_detalle,
-                       f.numero as NumeroFactura_Numero,
-                       f.fecha as NumeroFactura_Fecha,
-                       p.id as IdProducto_Id,
-                       p.nombre as IdProducto_Nombre,
-                       p.precio as IdProducto_Precio,
-                       df.cantidad
+                SELECT *
                 FROM detalle_factura df
                 INNER JOIN factura f ON f.numero = df.numero_factura
                 INNER JOIN cliente c ON c.id = f.id_cliente
@@ -41,15 +35,14 @@ namespace CoreAPIMYSQLData.Repositories
 
             var parameters = new { Numero = numero };
 
-            var result = await db.QueryAsync<DetalleFactura, Factura, Producto, DetalleFactura>(
+            var result = await db.QueryAsync<DetalleFactura, Producto, DetalleFactura>(
                 sql,
-                (detalleFactura, factura, producto) =>
-                {
-                    detalleFactura.NumeroFactura = factura;
+                (detalleFactura, producto) =>
+                {      
                     detalleFactura.IdProducto = producto;
                     return detalleFactura;
                 },
-                splitOn: "NumeroFactura_Numero,IdProducto_Id",
+                splitOn: "Id",
                 param: parameters);
 
             return result;
